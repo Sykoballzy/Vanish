@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-charcoal: #141414;
+  --color-coal: #0d0d0d;
+  --color-smoke: #1e1e1e;
+  --color-bone: #f2efe9;
+  --color-ember: #c8702d;
+  --color-ember-bright: #e08438;
+  --font-display: var(--font-barlow-condensed), "Arial Narrow", Arial, sans-serif;
+  --font-body: var(--font-barlow), Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: var(--color-charcoal);
+  color: var(--color-bone);
+  font-family: var(--font-body);
+}
+
+/* Headline utility: condensed, tight, uppercase — matches the angular wordmark */
+.display {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  line-height: 0.95;
+  font-weight: 700;
+}
+
+.eyebrow {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--color-ember);
+}
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+::selection {
+  background: var(--color-ember);
+  color: var(--color-coal);
+}
