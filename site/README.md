@@ -1,5 +1,7 @@
 # VANISH APPAREL — Storefront
 
+Deployed on Vercel (root directory: `site`).
+
 Next.js 16 + Tailwind v4 storefront for Vanish Apparel. Built from the brief in
 `../B_Vanish_Fable_Master_Prompt.md`.
 
