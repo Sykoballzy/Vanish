@@ -7,10 +7,10 @@ export const metadata: Metadata = {
 };
 
 const SOCIALS = [
-  { label: "Instagram", href: "https://instagram.com/vanishapparel" },
-  { label: "Facebook", href: "https://facebook.com/vanishapparel" },
-  { label: "YouTube", href: "https://youtube.com/@vanishapparel" },
-  { label: "TikTok", href: "https://tiktok.com/@vanishapparel" },
+  { label: "Instagram", href: "https://instagram.com/vanishapparelco" },
+  { label: "Facebook", href: "https://facebook.com/vanishapparelco" },
+  { label: "YouTube", href: "https://youtube.com/@vanishapparelco" },
+  { label: "TikTok", href: "https://tiktok.com/@vanishapparelco" },
 ];
 
 export default function ContactPage() {
@@ -31,10 +31,10 @@ export default function ContactPage() {
             <div>
               <p className="eyebrow mb-1 text-xs">Support</p>
               <a
-                href="mailto:support@vanishapparel.com"
+                href="mailto:support@vanishapparelco.com"
                 className="text-lg text-bone hover:text-ember transition-colors"
               >
-                support@vanishapparel.com
+                support@vanishapparelco.com
               </a>
             </div>
             <div>

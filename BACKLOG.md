@@ -13,9 +13,9 @@ Prioritized list of improvements for vanish-henna.vercel.app.
 | 2 | **Commerce backend** (Shopify + Printful) | 🧔 accounts, 💻 integration | Per the POD plan: Shopify ($39/mo) → connect Printful → replace stub checkout with Shopify checkout. Owner enters his own banking into Shopify Payments. |
 | 3 | **Sample orders of every product** | 🧔 | Non-negotiable per the POD doc — verify print quality before charging $32/tee. |
 | 4 | **Real product mockups** | 🤝 | Printful generates product mockups (shirt-on-model with the art). Swap the brand-art placeholder images in `site/lib/products.ts`. Cards currently show artwork, not products — fine for preview, not for purchase confidence. |
-| 5 | **Policy pages: Shipping & Returns, Privacy, Terms** | 💻 draft, 🧔 review | Legally/trust-wise required for taking money. Shopify generates boilerplate; link them in the footer. |
-| 6 | **Custom domain** | 🧔 buys, 💻 connects | `vanishapparel.com` or similar (~$12/yr). `vanish-henna.vercel.app` looks temporary on a business card / IG bio. Two clicks to attach in Vercel. |
-| 7 | **Real social account URLs** | 🧔 | Footer/contact links point at guessed handles (`instagram.com/vanishapparel`). Create the accounts or give the real ones. Same for `support@vanishapparel.com`. |
+| 5 | **Policy pages: Shipping & Returns, Privacy, Terms** | 💻 draft, 🧔 review | ✅ Drafted and live at /policies/* (footer links added), marked "Draft — takes effect at store launch." Owner must review before taking orders; cross-check refund terms against Printful's actual policy. |
+| 6 | **Custom domain** | 🧔 buys, 💻 connects | Checked the registry 2026-07-24: `vanishapparelco.com` and `vanishapparelcompany.com` are AVAILABLE (~$12/yr); `vanishapparel.com`, `wevanish.com`, `builtforthehunt.com` are taken. Recommend grabbing `vanishapparelco.com` now — matches the social handle plan. Two clicks to attach in Vercel. |
+| 7 | **Real social account URLs** | 🧔 | Site now points at `@vanishapparelco` everywhere (the old `vanishapparel` handles belong to other companies). Owner: register `@vanishapparelco` on IG/FB/YouTube/TikTok before someone else does, or tell us the final handle and it's a one-line change. Email references `support@vanishapparelco.com` — set up once the domain is bought. |
 
 ## P1 — High-impact, pre-launch (do these while waiting on Shopify)
 
